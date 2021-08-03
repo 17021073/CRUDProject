@@ -1,0 +1,217 @@
+body {
+    background-color: #EAEDED;
+}
+
+h2 {
+    font-size: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #3498DB;
+}
+
+.contained{
+    position: relative;
+    background-color: #fff;
+    width: 400px;
+    padding: 20px 30px 35px;
+    margin: 30px auto;
+    border-radius: 5px;
+    box-shadow: 0 0 200px rgba(255, 255, 255, 0.9), 0 5px 5px rgba(0, 0, 0, 0.3);
+
+}
+
+.error {
+    display: none;
+}
+
+.form-info{
+    width: -webkit-fill-available;
+    margin-bottom: 10px;
+    padding: 10px;
+    vertical-align: middle;
+    border: none;
+    background: #D6DBDF;
+    border-radius: 5px;
+    font-size: 15px;
+    color: black;
+    margin-top: 5px;
+}
+
+.remember_me {
+    margin: 5px 0px 20px 0px;
+}
+
+.remember_me label input {
+    margin: 0;
+}
+
+.button {
+    margin: 0px auto;
+    display: block;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    background: #5DADE2;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.invalid-info {
+    font-size: 16px;
+    color: red;
+}
+
+.create-acc-link{
+    font-size: 16px;
+    color: blue;
+    text-decoration: none;
+}
+
+.cart {
+    width: 20%;
+    height: 250px;
+    background: #fff;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    border-radius: 5px;
+    margin: 20px;
+    box-shadow: 0 0 200px rgba(255, 255, 255, 0.9), 0 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.cart-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+
+.cart-img{
+    width: 90%;
+    height: 150px;
+}
+
+.navigation{
+    background: #D6EAF8;
+    padding: 30px 60px;
+    margin-bottom: 20px;
+}
+
+.head-title {
+    font-size: 25px;
+    color: blue;
+   
+}
+
+.navigation a {
+    float: right;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px;
+    background: #ABEBC6;
+}
+.cart-title {
+    margin: 10px 10px 24px 10px;
+}
+.btn {
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 3px;
+    margin: 20px;
+}
+
+.update {
+    background: #3498DB;
+    color: #fff;
+    
+}
+
+.delete {
+    background: #A93226;
+    color: #fff;
+}
+
+.btn-create {
+    text-decoration: none;
+    margin-left: 65px;
+    margin-top: 19px;
+    background: sandybrown;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* CSS of create page */
+.contain {
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.btn_back {
+    text-decoration: none;
+    background: brown;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.form_create {
+    margin-top: 20px;
+}
+
+.table_create {
+    width: 100%;
+}
+
+/* .btn_submit{
+    font-size: 16px;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 5px;
+    background: chocolate;
+    color: #fff;
+} */
+
+/* read detail card page css */
+.main {
+    width: 960px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    margin-top: 30px;
+}
+
+.card-img img {
+    width: 350px;
+    height: 210px;
+    margin-right: 40px;
+}
+
+.title {
+    font-size: 30px;
+    margin: 0;
+    color: cornflowerblue;
+}
+
+.des-group {
+    margin-right: 30px;
+}
+.des {
+    font-size: 20px;
+}
+/* 
+.back-read{
+    margin-left: 100px;
+} */
+.back{
+    margin: 50px 0px 0px 140px;
+}
+
+
